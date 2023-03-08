@@ -14,11 +14,11 @@ import (
 
 type Link struct {
 	Destination string
-	Hash string
+	Hash        string
 }
 
 type LinkAnalytics struct {
-	GoTo *Link
+	GoTo      *Link
 	Analytics []byte
 }
 
